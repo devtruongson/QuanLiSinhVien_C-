@@ -63,7 +63,6 @@ namespace QuanLiSinhVien
             }
         }
 
-
         public void resetFiled()
         {
             txtMaSV.Text = "";

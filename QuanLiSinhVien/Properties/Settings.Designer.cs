@@ -54,5 +54,16 @@ namespace QuanLiSinhVien.Properties {
                 return ((string)(this["qlsinhvien15a10ConnectionString1"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=qlsinhvien15a10;Integrated Security=True;Encr" +
+            "ypt=True;TrustServerCertificate=True")]
+        public string qlsinhvien15a10ConnectionString2 {
+            get {
+                return ((string)(this["qlsinhvien15a10ConnectionString2"]));
+            }
+        }
     }
 }

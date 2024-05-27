@@ -19,6 +19,10 @@ namespace QuanLiSinhVien
 
         private void FRM_ReportSV_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'qlsinhvien15a10DataSet.sinhvien' table. You can move, or remove it, as needed.
+            this.sinhvienTableAdapter1.Fill(this.qlsinhvien15a10DataSet.sinhvien);
+            // TODO: This line of code loads data into the 'qlsinhvien15a10DataSet4.sinhvien' table. You can move, or remove it, as needed.
+            this.sinhvienTableAdapter.Fill(this.qlsinhvien15a10DataSet4.sinhvien);
             this.reportViewer1.RefreshReport();
         }
 
